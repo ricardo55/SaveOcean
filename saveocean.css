@@ -1,16 +1,31 @@
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #665544;
-    text-align: center;}
-#nav, #feature, #feature2, #feature3, #footer {
-    background-color: aliceblue;
-    margin-top: 20px;
-    padding: 10px 0px 5px 0px;}
-#feature, .article {
-    height: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+.logo{
+    width: 150px;
 }
-li {
-    display: inline;
-    padding: 5px;
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.text-ocean{
+    color: #155FCF!important;
+}
+
+.bg-coral{
+    background-color: #F6C0C0;
+}
+#oceanbg{
+    min-height: 80vh;
+    background-image: url("./img/ocean1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.title-ocean{
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+#oceanbg div.row{
+    height: 80vh;
 }

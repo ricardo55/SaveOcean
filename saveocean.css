@@ -2,7 +2,7 @@
 .logo{
     width: 150px;
 }
-.poppins ,p, h1, h2,h3,h4,h5,h6{
+.poppins ,p, h1, h2,h3,h4,h5,h6, a, label{
     font-family: 'Poppins', sans-serif;
 }
 .text-ocean{
@@ -94,4 +94,40 @@
 .img-especie{
     background-color: lightgray;
     height: 416px;
+}
+
+/* ---------Pagina Login------------ */
+#login{
+    min-height: 91vh;
+    background-image: url("./img/ocean1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#login div.row{
+    height: 91vh;
+}
+
+.card-body{
+    padding: 1rem 4rem!important;
+}
+.input-ocean{
+    border: none;
+    background: rgba(89,178,194,0.12);
+    padding: 20px;
+    font-size: 20px;
+}
+.input-ocean:focus{
+    background: rgba(89,178,194,0.12)!important;
+}
+
+.btn-ocean{
+    border-radius: 0;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    margin: auto;
+    display: block;
+    width: 100%;
+    border: none;
 }

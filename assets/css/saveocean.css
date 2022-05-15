@@ -17,7 +17,7 @@
 }
 #oceanbg{
     min-height: 80vh;
-    background-image: url("./img/ocean1.png");
+    background-image: url("./../img/ocean1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -55,7 +55,7 @@
 
 .footer{
     min-height: 55vh;
-    background-image: url("./img/footer.png");
+    background-image: url("./../img/footer.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@
 /* ---------Pagina playas------------ */
 #playas{
     min-height: 40vh;
-    background-image: url("./img/playas.png");
+    background-image: url("./../img/playas.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -81,7 +81,7 @@
 /* ---------Pagina Especies en peligro------------ */
 #playas{
     min-height: 40vh;
-    background-image: url("./img/especies-en-peligro.png");
+    background-image: url("./../img/especies-en-peligro.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -96,10 +96,28 @@
     height: 416px;
 }
 
+/* ---------Pagina brigadas------------ */
+#brigadas{
+    min-height: 40vh;
+    background-image: url("./../img/especies-en-peligro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#brigadas div.row{
+    height: 40vh;
+}
+
+.img-especie{
+    background-color: lightgray;
+    height: 416px;
+}
+
 /* ---------Pagina Login------------ */
 #login{
     min-height: 91vh;
-    background-image: url("./img/ocean1.png");
+    background-image: url("./../img/ocean1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -135,7 +153,7 @@
 /* ---------Pagina Login------------ */
 #registro{
     min-height: 91vh;
-    background-image: url("./img/ocean1.png");
+    background-image: url("./../img/ocean1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;

@@ -2,7 +2,7 @@
 .logo{
     width: 150px;
 }
-.poppins{
+.poppins ,p, h1, h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
 }
 .text-ocean{
@@ -10,7 +10,10 @@
 }
 
 .bg-coral{
-    background-color: #F6C0C0;
+    background-color: #F6C0C0!important;
+}
+.bg-ocean{
+    background-color: #155FCF!important;
 }
 #oceanbg{
     min-height: 80vh;
@@ -28,4 +31,36 @@
 
 #oceanbg div.row{
     height: 80vh;
+}
+
+.btn-comunidad{
+    border-radius: 0;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    margin: auto;
+    display: table;
+}
+
+.btn-comunidad2{
+    border-radius: 0;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+
+.img-info{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.footer{
+    min-height: 55vh;
+    background-image: url("./img/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer div.row{
+    min-height: 55vh;
 }

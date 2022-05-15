@@ -15,6 +15,9 @@
 .bg-ocean{
     background-color: #155FCF!important;
 }
+.bg-white{
+    background-color: white;
+}
 #oceanbg{
     min-height: 80vh;
     background-image: url("./../img/ocean1.png");
@@ -161,4 +164,26 @@
 
 .btn-ocean.crear{
     width: 30%;
+}
+
+/* ---------Pagina Login------------ */
+#reg-brigada{
+    min-height: 91vh;
+    background-image: url("./../img/registro-brigada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#reg-brigada div.row{
+    height: 91vh;
+}
+
+.input-white{
+    border: none;
+    background: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.input-white:focus{
+    background: white!important;
 }

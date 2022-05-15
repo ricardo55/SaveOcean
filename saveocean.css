@@ -131,3 +131,16 @@
     width: 100%;
     border: none;
 }
+
+/* ---------Pagina Login------------ */
+#registro{
+    min-height: 91vh;
+    background-image: url("./img/ocean1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.btn-ocean.crear{
+    width: 30%;
+}

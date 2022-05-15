@@ -1,5 +1,9 @@
 # Bootcamp Hack The Ocean
 ## Proyecto: **Save Ocean**
+
+![Logo](./assets/img/SaveOcean.png)
+Logo creado por Equipo de Save Ocean.
+
 ### Integrantes del equipo:
 1
 2
@@ -19,4 +23,22 @@
 6. Mostrar información sobre la situación de diversas playas en materia de limpieza. 
 7. Mostrar información sobre especies directamente afectadas por la basura en playas.
 
+A continuacion mostraremos nuestra estructura que trabajamos en la pagina web e implementandola en la página web, mediante un:
 
+**Diagrama de Clases**
+![avatar](/user/desktop/doge.png)
+
+```mermaid
+graph TD
+    A[Páginas] -->|Se clasifica en| B(Informativas)
+    A-->|Se clasifica en| C(Administración)
+    A -->|Se clasifica en| D(Login y Registro)
+    B --> E(Home)
+    B --> F(Situación playas)
+    B --> G(Especies en peligro)
+    B --> H(Actividades)
+    C-->I(Usuarios)
+    C-->J(Eventos)
+    C-->K(Brigadas)
+    C-->L(Reporte de eventos)
+```

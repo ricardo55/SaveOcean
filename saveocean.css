@@ -77,3 +77,21 @@
 #playas div.row{
     height: 40vh;
 }
+
+/* ---------Pagina Especies en peligro------------ */
+#playas{
+    min-height: 40vh;
+    background-image: url("./img/especies-en-peligro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#playas div.row{
+    height: 40vh;
+}
+
+.img-especie{
+    background-color: lightgray;
+    height: 416px;
+}

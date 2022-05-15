@@ -64,3 +64,16 @@
 .footer div.row{
     min-height: 55vh;
 }
+
+/* ---------Pagina playas------------ */
+#playas{
+    min-height: 40vh;
+    background-image: url("./img/playas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#playas div.row{
+    height: 40vh;
+}
